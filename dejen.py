@@ -241,40 +241,18 @@ def animated_loading(duration):
             time.sleep(0.25)
     print("\rMenunggu waktu claim berikutnya selesai.                            ", flush=True)    
 
-import time
-import sys
-from colorama import Fore, Style, init
-
-init(autoreset=True)
-
-# List of colors to cycle through
-colors = [Fore.RED, Fore.GREEN, Fore.YELLOW, Fore.BLUE, Fore.MAGENTA, Fore.CYAN, Fore.WHITE]
-
-def print_coloring_text(text, duration, interval):
-    end_time = time.time() + duration
-    color_index = 0
-    while time.time() < end_time:
-        # Print text with the current color
-        print(f"\r{colors[color_index]}{text}", end="", flush=True)
-        time.sleep(interval)  # Wait for the specified interval
-        color_index = (color_index + 1) % len(colors)  # Move to the next color
-    print("\r" + " " * len(text), end="", flush=True)  # Clear the line after finishing
-
 def print_welcome_message():
-    welcome_text = r"""
+    print(r"""
 ██╗  ██╗██╗███╗   ███╗██╗██╗  ██╗ █████╗ 
 ██║  ██║██║████╗ ████║██║██║ ██╔╝██╔══██╗
 ███████║██║██╔████╔██║██║█████═╝ ██║  ██║
 ██╔══██║██║██║╚██╔╝██║██║██╔═██╗ ██║  ██║
 ██║  ██║██║██║ ╚═╝ ██║██║██║ ╚██╗╚█████╔╝
-╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═╝ ╚════╝"""
-    
-    # Call print_coloring_text function to print welcome message with changing colors effect
-    print_coloring_text(welcome_text, duration=10, interval=0.5)
-
-# Call the function to test it
+╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═╝ ╚════╝""")
+    print(Fore.GREEN + Style.BRIGHT + "DejenDog BOT")
+    print(Fore.RED + Style.BRIGHT + "Modded by Himiko\n\n")
+ 
 print_welcome_message()
-
 while True:
     try:
         # Process each account
