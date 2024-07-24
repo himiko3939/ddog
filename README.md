@@ -8,7 +8,6 @@ Free 300.000 $HIT
 
 ## Features
 
-- Auto Upgrade
 - Auto 1x Tap
 - Auto Clear Task
 - Auto Get token
