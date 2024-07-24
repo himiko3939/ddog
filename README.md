@@ -2,7 +2,7 @@
 # DejenDog 
 DejenDog BOT
 
-Register Here : [DejenDog](https://t.me/DejenDogBot?start=eba7c5d3)
+Register Here : 
 
 Free 300.000 $HIT
 
@@ -28,5 +28,3 @@ Install with python
     8. python dejen.py
 
  
-
-![SS](https://i.ibb.co.com/HC7mHpw/Cuplikan-layar-2024-07-03-161059.png)
