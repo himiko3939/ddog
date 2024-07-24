@@ -2,7 +2,7 @@
 # DejenDog 
 DejenDog BOT
 
-Register Here : 
+Register Here : https://t.me/DejenDogBot?start=9993d595
 
 Free 300.000 $HIT
 
